@@ -4,7 +4,7 @@ include device/samsung/gte-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/gt510wifi
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gt510wifi,gt510wifixx,SM-T350,gt510lte,gt510ltexx,SM-T550
+#TARGET_OTA_ASSERT_DEVICE := gt510wifi,gt510wifixx,SM-T350,gt510lte,gt510ltexx,SM-T550
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt510wifi_eur_defconfig
