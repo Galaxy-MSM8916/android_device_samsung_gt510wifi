@@ -9,5 +9,8 @@ LOCAL_PATH := device/samsung/gt510wifi
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+PRODUCT_PACKAGES += \
+    acdb_get
+
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510wifi/overlay
