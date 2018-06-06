@@ -25,5 +25,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     $(LOCAL_PATH)/configs/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf
 
+# Wi-Fi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wifi/lowi.conf:system/etc/lowi.conf \
+    $(LOCAL_PATH)/configs/wifi/WCNSS_cfg.dat:system/etc/wifi/WCNSS_cfg.dat \
+    $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
+    $(LOCAL_PATH)/configs/wifi/xtwifi.conf:system/etc/xtwifi.conf \
+    $(LOCAL_PATH)/configs/wifi/feature_default.xml:system/etc/feature_default.xml \
+    $(LOCAL_PATH)/configs/wifi/clatd.conf:system/etc/clatd.conf
+
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510wifi/overlay
